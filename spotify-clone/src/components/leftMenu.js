@@ -3,6 +3,7 @@ import { FaSpotify, FaEllipsisH } from 'react-icons/fa';
 import "../styles/LeftMenu.css";
 import Menulist from './MenuList.js';
 import Menu from './Menu.js'
+import MenuPLaylist from './MenuPlaylist.js'
 
 const leftMenu = () => {
     return (
@@ -11,19 +12,19 @@ const leftMenu = () => {
             <div className="logo-container">
                 <div className="logo">
 
-                    <i className = "logo-2">
-                    <a href="#">
-                        <FaSpotify />
-                        
-                             </a>
+                    <i className="logo-2">
+                        <a href="#">
+                            <FaSpotify />
+
+                        </a>
                     </i>
 
 
                 </div>
 
                 <i>
-                <a className = "dots"href="#">
-                    <FaEllipsisH />
+                    <a className="dots" href="#">
+                        <FaEllipsisH />
                     </a>
                 </i>
             </div>
@@ -32,8 +33,9 @@ const leftMenu = () => {
                 <input type="text" placeholder="Getcho search on" />
 
             </div>
-            <Menu title={'Menu'} menuObject={ Menulist } />
+            <Menu title={'Menu'} menuObject={Menulist} />
 
+            <MenuPLaylist />
         </div>
 
     );

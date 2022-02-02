@@ -38,11 +38,11 @@
   color: var(--primary-green);
 }
 
-.left-menu .logo-container {
+.logo-container {
   font-size: 35px;
 }
 /* this targets the 3 dots icon */
-.left-menu .logo-container i:nth-child(2) {
+.logo-container i:nth-child(2) {
   font-size: 20px;
 }
 
@@ -111,4 +111,60 @@
 .menu-container ul li :hover {
   cursor: pointer;
   color: var(--primary-green);
+}
+
+/* PLaylist div styling */
+.playlist-container {
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-white);
+  margin-bottom: 10px;
+}
+
+.name-container p {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.name-container i {
+  cursor: pointer;
+  color: var(--primary-white);
+}
+
+.playlist-scroll {
+  height: 140px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  margin-top: 15px;
+}
+.playlist {
+  display: flex;
+  align-items: center;
+  color: var(--primary-white);
+}
+
+.playlist i {
+  font-size: 18px;
+}
+
+.music-list {
+  margin-right: 15px;
+}
+
+.trashcan {
+  margin-left: auto;
+}
+
+.playlist p {
+  font-size: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline;
 }
