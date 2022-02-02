@@ -1,10 +1,18 @@
 import './App.css';
+import Leftmenu from './components/leftMenu';
+import Mainmenu from './components/mainMenu';
+import Rightmenu from './components/rightMenu';
 
 function App() {
   return (
-<div>
-  <h1>HELLO WORLD</h1>
+    <>
+      <Leftmenu />
+      <Mainmenu />
+      <Rightmenu />
+<div className = "background"> 
+
 </div>
+    </>
   );
 }
 

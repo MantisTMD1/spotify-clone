@@ -1,6 +1,6 @@
 import React from 'react';
  
-const mainMenu = () =>{
+const rightMenu = () =>{
     return(
 
 <div>
@@ -10,4 +10,4 @@ const mainMenu = () =>{
     );
 }
 
-export default mainMenu
+export default rightMenu
