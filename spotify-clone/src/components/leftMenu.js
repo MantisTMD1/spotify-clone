@@ -11,17 +11,20 @@ const leftMenu = () => {
             <div className="logo-container">
                 <div className="logo">
 
-                    <i>
+                    <i className = "logo-2">
+                    <a href="#">
                         <FaSpotify />
-
+                        
+                             </a>
                     </i>
 
 
                 </div>
 
                 <i>
+                <a className = "dots"href="#">
                     <FaEllipsisH />
-
+                    </a>
                 </i>
             </div>
 

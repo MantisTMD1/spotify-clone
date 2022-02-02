@@ -31,7 +31,7 @@ const MenuList = [
     {
         id: 6,
         icon: <FaPodcast />,
-        name: "Podcast",
+        name: "Podcasts",
     },
 
 ];
