@@ -10,4 +10,4 @@ const rightMenu = () =>{
     );
 }
 
-export default rightMenu
+export default rightMenu;

@@ -1,13 +1,39 @@
 import React from 'react';
- 
-const leftMenu = () =>{
-    return(
+import { FaSpotify, FaEllipsisH } from 'react-icons/fa';
+import "../styles/LeftMenu.css";
+import Menulist from './MenuList.js';
+import Menu from './Menu.js'
 
-<div>
+const leftMenu = () => {
+    return (
 
-</div>
+        <div className="left-menu">
+            <div className="logo-container">
+                <div className="logo">
+
+                    <i>
+                        <FaSpotify />
+
+                    </i>
+
+
+                </div>
+
+                <i>
+                    <FaEllipsisH />
+
+                </i>
+            </div>
+
+            <div className="search-bar">
+                <input type="text" placeholder="Getcho search on" />
+
+            </div>
+            <Menu title={'Menu'} menuObject={ Menulist } />
+
+        </div>
 
     );
 }
 
-export default leftMenu
+export default leftMenu;

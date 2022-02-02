@@ -10,4 +10,4 @@ const mainMenu = () =>{
     );
 }
 
-export default mainMenu
+export default mainMenu;
