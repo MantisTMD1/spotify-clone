@@ -1,9 +1,7 @@
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
 import { BsMusicNoteList, BsTrash } from 'react-icons/bs';
-import { PLayList } from './Playlist.js';
-
-
+import { Playlist} from './Playlist.js';
 
 const MenuPlaylist = () => {
     return <div className="playlist-container">
@@ -16,8 +14,8 @@ const MenuPlaylist = () => {
         </div>
         <div className="playlist-scroll">
             {
-                PLayList && PlayList.map((list) => {
-                    
+                Playlist && Playlist.map((list) => {
+
                 })
             }
             <div className="playlist">

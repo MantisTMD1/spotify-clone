@@ -3,7 +3,7 @@ import Leftmenu from './components/leftMenu';
 import Mainmenu from './components/mainMenu';
 import Rightmenu from './components/rightMenu';
 
-function App() {
+const App = () => {
   return (
     <>
       <Leftmenu />
