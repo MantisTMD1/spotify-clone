@@ -2,8 +2,9 @@ import React from 'react';
 import { FaSpotify, FaEllipsisH } from 'react-icons/fa';
 import "../styles/LeftMenu.css";
 import Menulist from './MenuList.js';
-import Menu from './Menu.js'
-import MenuPLaylist from './MenuPlaylist.js'
+import Menu from './Menu.js';
+import MenuPLaylist from './MenuPlaylist.js';
+import WebPlayer from './WebPlayer.js';
 
 const leftMenu = () => {
     return (
@@ -36,6 +37,8 @@ const leftMenu = () => {
             <Menu title={'Menu'} menuObject={Menulist} />
 
             <MenuPLaylist />
+
+            <WebPlayer/>
         </div>
 
     );

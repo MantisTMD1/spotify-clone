@@ -131,10 +131,16 @@
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
+  cursor: default;
 }
 .name-container i {
   cursor: pointer;
   color: var(--primary-white);
+}
+.name-container i:hover {
+  color: var(--primary-green);
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .playlist-scroll {
@@ -148,10 +154,17 @@
   display: flex;
   align-items: center;
   color: var(--primary-white);
+  margin: 11px 0;
 }
 
 .playlist i {
   font-size: 18px;
+}
+
+.playlist i:hover {
+  color: var(--primary-green);
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .music-list {
@@ -162,9 +175,62 @@
   margin-left: auto;
 }
 
+.trashcan :hover {
+  color: var(--primary-green);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 .playlist p {
   font-size: 16px;
   text-overflow: ellipsis;
   overflow: hidden;
   display: inline;
+}
+
+.webplayer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.webplayer .top img {
+  width: 50px;
+}
+
+.top p {
+  margin-left: 15px;
+  color: var(--primary-white);
+  font-size: 14px;
+}
+
+.top p span {
+  display: block;
+  font-size: 12px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: var(--primary-white);
+}
+
+.bottom i {
+  font-size: 18px;
+}
+
+.bottom i :hover {
+  color: var(--primary-green);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.volume-range {
+  color: var(--primary-green);
 }

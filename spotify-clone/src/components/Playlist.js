@@ -5,15 +5,15 @@ const Playlist = [
     },
     {
         id: 2,
-        name: 'Dance'
+        name: 'Rock'
     },
     {
         id: 3,
-        name: 'chill'
+        name: 'Chill'
     },
     {
         id: 4,
-        name: 'Hip-hop'
+        name: 'Hip-Hop'
     },
     {
         id: 5,
