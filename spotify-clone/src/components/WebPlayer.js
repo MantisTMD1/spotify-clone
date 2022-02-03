@@ -14,7 +14,7 @@ const WebPlayer = () => {
       </div>
       <div className="bottom">
         <i><BsFillVolumeUpFill /></i>
-        <input type="range" className ="volume-range" />
+        <input type="range" />
         <i><BsMusicNoteList /></i>
         <i><FaDesktop /></i>
       </div>
