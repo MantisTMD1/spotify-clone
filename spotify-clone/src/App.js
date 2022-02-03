@@ -6,12 +6,14 @@ import Rightmenu from './components/rightMenu';
 const App = () => {
   return (
     <>
-      <Leftmenu />
-      <Mainmenu />
-      <Rightmenu />
-<div className = "background"> 
+      <div className="App">
 
-</div>
+        <Leftmenu />
+        <Mainmenu />
+        <Rightmenu />
+        <div className="background"></div>
+
+      </div>
     </>
   );
 }

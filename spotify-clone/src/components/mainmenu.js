@@ -1,11 +1,13 @@
 import React from 'react';
- 
-const mainMenu = () =>{
-    return(
+import '../styles/mainMenu.css';
+import {Banner} from './Banner.js';
 
-<div>
+const mainMenu = () => {
+    return (
 
-</div>
+        <div className="maincontainer">
+            <Banner/>
+        </div>
 
     );
 }
