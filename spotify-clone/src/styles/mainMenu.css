@@ -55,8 +55,10 @@
   font-weight: bold;
   letter-spacing: 1px;
 }
-.breadcrumb p i {
+.threedots {
   color: var(--primary-white);
+  font-size: 18px;
+  cursor: pointer;
 }
 .artist {
   margin-top: auto;
@@ -97,7 +99,7 @@
   align-items: center;
 }
 
-.right a{
+.right a {
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -117,7 +119,7 @@
 }
 
 .right a:nth-child(1) {
-  background-color: #29aa24;
+  background-color: #f907f3;
 }
 
 .right a:nth-child(2) {
@@ -126,8 +128,73 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.right a:hover{
-  box-shadow: 5px 10px 20px rgba(0,0,0,0.4) !important;
+.right a:hover {
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4) !important;
   cursor: pointer;
+}
 
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: rgba(	54, 247, 249, 0.3);
+}
+
+.menu-list ul {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list ul li {
+  list-style: none;
+  margin: 0 20px;
+  position: relative;
+}
+
+.menu-list ul li a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* hover effect underneath the li tag */
+.menu-list ul li::before {
+  position: absolute;
+  content: "";
+  bottom: -20px;
+  left: 10px;
+  width: 0px;
+  height: 5px;
+  border-radius: 5px;
+  background: var(--primary-white);
+}
+
+.menu-list ul li:hover::before,
+.menu-list ul li.active::before {
+  width: 40px;
+  transition: width 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.menu-list ul li:hover a,
+.menu-list ul li.active a {
+  color: var(--primary-gray);
+  transition: 0.3s;
+}
+
+.menu-list p {
+  color: var(--primary-white);
+  font-size: 14px;
+}
+
+.menu-list p i {
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+.menu-list p span {
+  display: block;
+  font-size: 10px;
+  text-align: end;
 }

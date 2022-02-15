@@ -13,7 +13,7 @@ const Banner = () => {
                         Home <span>/Popular Artist</span>
 
                     </p>
-                    <i><FaEllipsisH />
+                    <i className = "threedots"><FaEllipsisH />
 
                     </i>
 
@@ -33,8 +33,8 @@ const Banner = () => {
                         <a href="#">
 
 
-                        <i><FaCheck /> </i>
-                        Following</a>
+                            <i><FaCheck /> </i>
+                            Following</a>
                     </div>
 
                 </div>

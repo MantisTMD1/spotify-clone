@@ -1,7 +1,7 @@
 :root {
   --primary-white: #ffffff;
   --primary-gray: #848484;
-  --primary-green: #1ed760;
+  --primary-green: #17185b;
 }
 
 .left-menu {
@@ -28,7 +28,7 @@
   color: var(--primary-white);
 }
 .logo-2 a:hover {
-  color: var(--primary-green);
+  color: #f907f3;
   transform: scale(2);
   transition: 0.1s ease-in-out;
 }
@@ -37,7 +37,7 @@
   color: var(--primary-white);
 }
 .dots:hover {
-  color: var(--primary-green);
+  color: #f907f3;
 }
 
 .logo-container {
@@ -108,11 +108,11 @@
 }
 .menu-container ul li :active,
 .menu-container ul li :focus {
-  color: var(--primary-green);
+  color: #f907f3;
 }
 .menu-container ul li :hover {
   cursor: pointer;
-  color: var(--primary-green);
+  color:#f907f3;
 }
 
 /* PLaylist div styling */
@@ -140,7 +140,7 @@
   color: var(--primary-white);
 }
 .name-container i:hover {
-  color: var(--primary-green);
+  color:#f907f3;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -164,7 +164,7 @@
 }
 
 .playlist i:hover {
-  color: var(--primary-green);
+  color: #f907f3;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -178,7 +178,7 @@
 }
 
 .trashcan :hover {
-  color: var(--primary-green);
+  color: #f907f3;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -228,7 +228,7 @@
 }
 
 .bottom i :hover {
-  color: var(--primary-green);
+  color: #f907f3;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -248,7 +248,7 @@
   content: "";
   top: 0;
   left: 0;
-  background: var(--primary-green);
+  background:#f907f3;
   width: 50%;
   height: 100%;
   border-radius: 10px;
@@ -273,7 +273,7 @@
 
 /* firefox styling */
 .webplayer .bottom input:moz-progress-bar{
-  background: var(--primary-green);
+  background: #f907f3;
   width: 50%;
   height: 100%;
   border-radius: 10px;
@@ -282,7 +282,7 @@
 }
 
 .webplayer .bottom input:moz-range-thumb{
-  background: var(--primary-green);
+  background: #f907f3;
   width: 50%;
   height: 100%;
   border-radius: 10px;
