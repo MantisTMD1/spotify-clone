@@ -4,9 +4,10 @@ import { BsMusicNoteList, BsTrash } from 'react-icons/bs';
 import { Playlist } from './Playlist.js';
 
 const MenuPlaylist = () => {
-  return <div className="playlist-container">
+  return <div className="playlist-left-container">
     <div className="name-container">
       <p>Playlist</p>
+
       <i>
         <FaPlus />
 

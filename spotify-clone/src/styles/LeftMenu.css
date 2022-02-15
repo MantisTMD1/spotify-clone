@@ -15,7 +15,7 @@
   padding: 25px 30px;
   overflow: hidden;
   transition: all 0.3s ease;
-  border-right: 1px solid rgba(255,255,255,0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 .logo-container {
   display: flex;
@@ -112,11 +112,11 @@
 }
 .menu-container ul li :hover {
   cursor: pointer;
-  color:#f907f3;
+  color: #f907f3;
 }
 
 /* PLaylist div styling */
-.playlist-container {
+.playlist-left-container {
   cursor: pointer;
   margin: 15px 0;
 }
@@ -127,6 +127,7 @@
   align-items: center;
   color: var(--primary-white);
   margin-bottom: 10px;
+  
 }
 
 .name-container p {
@@ -135,12 +136,13 @@
   text-transform: uppercase;
   cursor: default;
 }
+
 .name-container i {
   cursor: pointer;
   color: var(--primary-white);
 }
 .name-container i:hover {
-  color:#f907f3;
+  color: #f907f3;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -248,7 +250,7 @@
   content: "";
   top: 0;
   left: 0;
-  background:#f907f3;
+  background: #f907f3;
   width: 50%;
   height: 100%;
   border-radius: 10px;
@@ -263,7 +265,7 @@
   border-radius: 10px;
   background: var(--primary-white);
   border: 1px solid var(--primary-gray);
-  cursor:pointer;
+  cursor: pointer;
   position: relative;
   margin: -2px 0 0 0;
   z-index: 3;
@@ -272,7 +274,7 @@
 }
 
 /* firefox styling */
-.webplayer .bottom input:moz-progress-bar{
+.webplayer .bottom input:moz-progress-bar {
   background: #f907f3;
   width: 50%;
   height: 100%;
@@ -281,7 +283,7 @@
   transition: width 0.3s linear;
 }
 
-.webplayer .bottom input:moz-range-thumb{
+.webplayer .bottom input:moz-range-thumb {
   background: #f907f3;
   width: 50%;
   height: 100%;

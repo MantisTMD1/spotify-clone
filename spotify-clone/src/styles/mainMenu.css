@@ -138,7 +138,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px 25px;
-  background-color: rgba(	54, 247, 249, 0.3);
+  background-color: rgba(54, 247, 249, 0.3);
 }
 
 .menu-list ul {
@@ -164,7 +164,7 @@
   position: absolute;
   content: "";
   bottom: -20px;
-  left: 10px;
+  left: 0px;
   width: 0px;
   height: 5px;
   border-radius: 5px;
@@ -190,11 +190,55 @@
 
 .menu-list p i {
   margin-right: 6px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .menu-list p span {
   display: block;
   font-size: 10px;
   text-align: end;
+}
+
+/* main playlist in bottom of center container */
+.audio-list {
+  padding: 10px 30px;
+}
+
+.title-Queue {
+  font-size: 20px;
+  color: var(--primary-white);
+}
+
+.title-Queue span {
+  color: #484848;
+  font-size: 12px;
+}
+
+.playlist-container {
+  height: 220px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* background-color: red; */
+}
+
+.songs {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-gray);
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.songs:hover, .songs:active{
+  color:var(--primary-white);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.song-number{
+ margin-right:10px; 
+
 }

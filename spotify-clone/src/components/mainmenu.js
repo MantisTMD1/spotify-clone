@@ -1,9 +1,24 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../styles/mainMenu.css';
 import { Banner } from './Banner.js';
 import { FaUsers } from 'react-icons/fa';
+import { AudioList } from './AudioList';
 
-const mainMenu = () => {
+const MainMenu = () => {
+    useEffect(() => {
+        const allLi = document
+            .querySelector('.menu-list')
+            .querySelectorAll("li");
+
+        //event listener for clicking menu items and having css actively changed
+        function changeMenuActive() {
+            allLi.forEach(n => n.classsList.remove('active'))
+            this.classList.add('active');
+        }
+
+        allLi.forEach(n => n.addEventListener('click', changeMenuActive))
+        // console.log(allLi);
+    }, [])
     return (
 
         <div className="maincontainer">
@@ -23,9 +38,11 @@ const mainMenu = () => {
                     10 trillion <span>followers</span>
                 </p>
             </div>
+
+        <AudioList/>
         </div>
 
     );
 }
 
-export default mainMenu;
+export default MainMenu;
